@@ -610,7 +610,10 @@ function genericCall(route, options) {
   if (count < 1) {
     callback(false, "Count must be greater than or equal to 1!");
   }
-
+  
+  console.log(address)
+  console.log(queryParams)
+  
   request(
     {
       url: address,
